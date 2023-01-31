@@ -1,1 +1,1 @@
-new-azresourcegroup -name "reporg" -location "east us"
+new-azresourcegroup -name $env:rgname -location $env:loc
